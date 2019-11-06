@@ -8,7 +8,6 @@ def oxford_comma(array)
     array.join(" and ")
     elsif array.length == 3 
     prepend_array = array[2].prepend("and ")
-    array.each {|a| a.to_s}
     binding.pry
   end 
 end
