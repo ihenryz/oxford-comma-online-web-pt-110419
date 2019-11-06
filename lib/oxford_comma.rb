@@ -9,6 +9,6 @@ def oxford_comma(array)
     elsif array.length == 3 
     prepend_array = array[2].prepend("and ")
     array.each {|a| a.to_s}
-    #binding.pry
+    binding.pry
   end 
 end
