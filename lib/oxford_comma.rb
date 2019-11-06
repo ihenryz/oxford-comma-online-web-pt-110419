@@ -3,8 +3,6 @@ require 'pry'
 
 def oxford_comma(array)
   array.join
-  if array[1]
-  array.split(" and ").to_s
-  end
+  array.each {|n| puts n}
   binding.pry
 end
