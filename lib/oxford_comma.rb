@@ -6,5 +6,5 @@ def oxford_comma(array)
   if array[1]
   array.split(" and ").to_s
   end
-  #binding.pry
+  binding.pry
 end
