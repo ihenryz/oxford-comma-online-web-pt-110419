@@ -2,11 +2,7 @@ require 'pry'
 
 
 def oxford_comma(array)
-  if array.length == 1
-    array.split(" and ")
-  else array.join
-  # array.join
-  # array.each {|n| puts n}
+  array.
   # binding.pry
   end
 end
