@@ -2,6 +2,6 @@ require 'pry'
 
 
 def oxford_comma(array)
-  array.join
+  array_to_string = array.join
   binding.pry
 end
