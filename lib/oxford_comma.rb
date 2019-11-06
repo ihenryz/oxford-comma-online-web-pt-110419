@@ -2,7 +2,8 @@ require 'pry'
 
 
 def oxford_comma(array)
-  array.
-  # binding.pry
+  array[index]
+  array.join
+   binding.pry
   end
 end
