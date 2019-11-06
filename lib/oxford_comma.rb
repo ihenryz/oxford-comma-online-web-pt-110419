@@ -7,10 +7,10 @@ def oxford_comma(array)
   elsif array.length == 2 
     array.join(" and ")
   elsif array.length == 3 
-    prepend_array = array[2].prepend("and ")
+    prepend_array = array[-1].prepend("and ")
     array.join(", ")
-  else array.length > 3 
-    prepend_array = array[-1]
-    #binding.pry
+  # else array.length > 3 
+  #   prepend_array = array[-1]
+  #   #binding.pry
   end 
 end
