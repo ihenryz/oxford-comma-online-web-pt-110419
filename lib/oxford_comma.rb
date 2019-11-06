@@ -12,6 +12,5 @@ def oxford_comma(array)
   else array.length > 3 
     prepend_array = array[-1].prepend("and ")
     array.join(", ")
-    #binding.pry
   end 
 end
